@@ -9,14 +9,14 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.GestorDeCuentasRápidas.AppBarOverlay">
+        android:theme="@style/Theme.GestorDeCuentasRpidas.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.GestorDeCuentasRápidas.PopupOverlay" />
+            app:popupTheme="@style/Theme.GestorDeCuentasRpidas.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,6 +29,6 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/baseline_add_24" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

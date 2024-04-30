@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Gestor de Cuentas Rápidas"
+rootProject.name = "GestorDeCuentasRpidas"
 include(":app")
+ 
